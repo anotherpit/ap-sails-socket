@@ -11,7 +11,7 @@ window.io.sails.autoConnect = false;
  * @ngdoc module
  * @name ap-sails-socket
  */
-var module = angular.module("ap-sails-socket", []);
+var module = angular.module("ap-sails-socket", ["ng"]);
 
 /**
  * @ngdoc service
@@ -50,7 +50,7 @@ module.provider("apSailsSocket", function() {
     return provider;
 });
 
-module.run(function(socket) {
+module.run(function(apSailsSocket) {
     // This empty function is to explicitly declare
     // dependency on the 'socket' service
     // to ensure that provider instantiate it
