@@ -1,0 +1,28 @@
+{
+  "name": "ap-sails-socket",
+  "version": "0.0.0",
+  "description": "AngularJS × sails.io",
+  "main": "ap-sails-socket.js",
+  "scripts": {
+    "test": "npm test",
+    "postinstall": "bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anotherpit/ap-sails-socket.git"
+  },
+  "keywords": [
+    "angular",
+    "sails",
+    "socket.io",
+    "sails.io",
+    "sockets",
+    "websockets"
+  ],
+  "author": "anotherpit <anotherpit@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anotherpit/ap-sails-socket/issues"
+  },
+  "homepage": "https://github.com/anotherpit/ap-sails-socket"
+}
