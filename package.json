@@ -1,6 +1,6 @@
 {
   "name": "ap-sails-socket",
-  "version": "0.0.0",
+  "version": "0.11.5",
   "description": "AngularJS × sails.io",
   "main": "ap-sails-socket.js",
   "scripts": {
