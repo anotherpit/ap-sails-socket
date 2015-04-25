@@ -4,7 +4,7 @@
   "description": "AngularJS × sails.io",
   "main": "ap-sails-socket.js",
   "scripts": {
-    "test": "npm test",
+    "test": "./node_modules/karma/bin/karma start --single-run",
     "postinstall": "bower install"
   },
   "repository": {
