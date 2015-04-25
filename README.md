@@ -37,7 +37,7 @@ var module = angular.module("app", [
 ]);
 
 module.config(function(apSailsSocketProvider) {
-    // apSailsSocket === window.io.sails
+    // apSailsSocketProvider.settings === window.io.sails
     apSailsSocketProvider.settings.autoConnect = true;
 });
 
